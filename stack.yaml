@@ -1,0 +1,15 @@
+resolver: lts-7.19
+
+flags:
+  xmobar:
+    all_extensions: true
+
+packages:
+  - location:
+      git: git://github.com/jaor/xmobar
+      commit: 61bd7931b65044acab087c09a9b70d56432f1fe9
+
+extra-deps:
+  - X11-xft-0.3.1
+  - alsa-core-0.5.0.1
+  - alsa-mixer-0.2.0.3
