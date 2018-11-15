@@ -9,6 +9,6 @@ This project uses [build-base](https://github.com/Fuco1/build-base) structure.
 ``` shell
 git clone --recursive https://github.com/Fuco1/xmobar-build.git
 cd xmobar-build
-./build.sh
-./install.sh
+./build
+./install
 ```
